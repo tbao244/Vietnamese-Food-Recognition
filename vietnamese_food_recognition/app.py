@@ -18,7 +18,9 @@ with st.expander("📌 Xem danh sách các món ăn AI có thể nhận diện")
 
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model('models/food_model.h5')
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.join(BASE_DIR, 'models', 'food_model.h5')
+    return tf.keras.models.load_model(model_path)
 model = load_model()
 
 uploaded_file = st.file_uploader("Chọn một bức ảnh đồ ăn...", type=["jpg", "jpeg", "png"])
