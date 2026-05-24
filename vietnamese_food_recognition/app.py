@@ -2,6 +2,7 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
+import os
 
 st.set_page_config(page_title="Nhận diện món ăn Việt Nam", page_icon="🍜")
 st.title("🍜 Ứng Dụng Nhận Diện Món Ăn Việt Nam")
