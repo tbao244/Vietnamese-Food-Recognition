@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import os
 
-st.set_page_config(page_title="Nhận diện món ăn Việt Nam", page_icon="🍜")
+st.set_page_config(page_title="Nhận diện món ăn Việt Nam", page_icon="🍜", layout="centered")
 st.title("🍜 Ứng Dụng Nhận Diện Món Ăn Việt Nam")
 st.write("Upload một bức ảnh đồ ăn và để AI đoán xem đó là món gì nhé!")
 
