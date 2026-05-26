@@ -1,4 +1,4 @@
-###🍜 Nhận Diện Món Ăn Việt Nam
+# Nhận Diện Món Ăn Việt Nam
 
 Ứng dụng web sử dụng CNN để nhận diện 10 món ăn truyền thống Việt Nam từ hình ảnh người dùng tải lên.
 ---
