@@ -11,11 +11,11 @@
 ## Supported Dishes
 
 | | | |
+|---|---|---|
 | Bánh mì | Bánh xèo | Bún bò Huế |
 | Cơm tấm | Gỏi cuốn | Hủ tiếu |
 | Mì Quảng | Nem chua | Phở |
 | Xôi xéo | | |
-
 
 ## Cấu trúc thư mục
 
