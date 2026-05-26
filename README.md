@@ -1,7 +1,6 @@
-# Nhận Diện Món Ăn Việt Nam
+# 🍜 Nhận Diện Món Ăn Việt Nam
 
 Ứng dụng web sử dụng CNN để nhận diện 10 món ăn truyền thống Việt Nam từ hình ảnh người dùng tải lên.
----
 
 ## Tính năng
 
@@ -9,18 +8,14 @@
 - Hiển thị món ăn dự đoán và độ tin cậy  
 - Hiển thị top 3 dự đoán có xác suất cao nhất
 
----
+## Supported Dishes
 
-## Món ăn hỗ trợ
-
-| | | |
 |---|---|---|
 | Bánh mì | Bánh xèo | Bún bò Huế |
 | Cơm tấm | Gỏi cuốn | Hủ tiếu |
 | Mì Quảng | Nem chua | Phở |
 | Xôi xéo | | |
 
----
 
 ## Cấu trúc thư mục
 
@@ -40,8 +35,6 @@
 │       
 └── requirements.txt
 ```
-
----
 
 ## Chi tiết mô hình
 
@@ -68,7 +61,7 @@ Mô hình được huấn luyện bằng TensorFlow/Keras trên Google Colab (GP
 | Validation  | 68.51%       |
 | Test        | 68.18%       |
 
----
+
 
 ## Công nghệ sử dụng
 
@@ -79,21 +72,15 @@ Mô hình được huấn luyện bằng TensorFlow/Keras trên Google Colab (GP
 - NumPy
 - Google Colab
 
----
 
 ## Cách chạy
 
+```bash
 # Cài dependencies
-```bash
 pip install -r requirements.txt
-```
-
 # Chạy ứng dụng
-```bash
-streamlit run app.py
+streamlit run main.py
 ```
-
----
 
 ## Hướng dẫn sử dụng
 
@@ -101,8 +88,6 @@ streamlit run app.py
 2. Upload ảnh món ăn (JPG/PNG/JPEG)
 3. Chờ AI phân tích hình ảnh
 4. Xem kết quả dự đoán, độ tin cậy, và top 3 dự đoán
-
----
 
 ## Hạn chế
 
