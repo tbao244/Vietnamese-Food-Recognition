@@ -11,7 +11,7 @@
 
 ---
 
-## Supported Dishes
+## Món ăn hỗ trợ
 
 | | | |
 |---|---|---|
