@@ -93,7 +93,8 @@ html, body, [class*="css"] {
     border: 0.5px solid #e0d8d0;
     overflow: hidden;
     margin-top: 1.5rem;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.05);}
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    backdrop-filter: blur(10px);}
             
 .result-header {
     background: #c0392b;
@@ -248,6 +249,7 @@ uploaded_file = st.file_uploader(
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
+    image = image.convert("RGB")
     st.image(image, caption="Ảnh bạn vừa tải lên", use_column_width=True)
 
     img = image.resize((128, 128))
@@ -303,6 +305,6 @@ if uploaded_file is not None:
 # ---- Footer ----
 st.markdown("""
 <div class="disclaimer">
-    Powered by TensorFlow · 10 món ăn Việt Nam truyền thống
+    10 món ăn Việt Nam truyền thống
 </div>
 """, unsafe_allow_html=True)
