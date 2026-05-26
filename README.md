@@ -8,7 +8,7 @@
 - Hiển thị món ăn dự đoán và độ tin cậy  
 - Hiển thị top 3 dự đoán có xác suất cao nhất
 
-## Supported Dishes
+## Món ăn hỗ trợ
 
 | | | |
 |---|---|---|
@@ -16,6 +16,7 @@
 | Cơm tấm | Gỏi cuốn | Hủ tiếu |
 | Mì Quảng | Nem chua | Phở |
 | Xôi xéo | | |
+
 
 ## Cấu trúc thư mục
 
@@ -61,8 +62,6 @@ Mô hình được huấn luyện bằng TensorFlow/Keras trên Google Colab (GP
 | Validation  | 68.51%       |
 | Test        | 68.18%       |
 
-
-
 ## Công nghệ sử dụng
 
 - Python 3.12.10
@@ -71,7 +70,6 @@ Mô hình được huấn luyện bằng TensorFlow/Keras trên Google Colab (GP
 - Pillow
 - NumPy
 - Google Colab
-
 
 ## Cách chạy
 
