@@ -62,6 +62,15 @@ Mô hình được huấn luyện bằng TensorFlow/Keras trên Google Colab (GP
 | Validation  | 68.51%       |
 | Test        | 68.18%       |
 
+## Dataset
+
+Project sử dụng dataset từ Kaggle:
+
+- 30VNFoods Dataset: https://www.kaggle.com/datasets/quandang/vietnamese-foods
+
+Dataset gốc bao gồm 30 món ăn Việt Nam khác nhau.  
+Trong project này, dữ liệu đã được chọn lọc và chỉ sử dụng 10 lớp món ăn phổ biến.
+
 ## Công nghệ sử dụng
 
 - Python 3.12.10
